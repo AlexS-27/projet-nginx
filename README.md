@@ -14,7 +14,7 @@ Site web statique avec Nginx
 
 Points d'attentions :
 Vérifier qu'aucun autre service ne soit actif sur le port 8080
-Possibilité de vérifier les conteneurs actifs via '''docker ps'''
+Possibilité de vérifier les conteneurs actifs via `docker ps`
 
 ## Sécurité & gestion des ressources
 Afin d'optimiser la gestion des ressources et de mettre à disposition une solution sécurisée il a été mis en oeuvre : 
@@ -26,5 +26,5 @@ Afin d'optimiser la gestion des ressources et de mettre à disposition une solut
 2. Créer un projet
 3. Créer un dossier "site"
 4. Insérer ses fichiers web (HTML; CSS; JS) afin d'obtenir le rendu du site voulu  
-5. Dans le terminal entrer '''docker run -d -p 8080:80  -v ${PWD}/site:/usr/share/nginx/html --name <nom du container> nginx:alpine'''
+5. Dans le terminal entrer `docker run -d -p 8080:80  -v ${PWD}/site:/usr/share/nginx/html --name <nom du container> nginx:alpine`
 6. Aller dans le navigateur et se rendre sur http://Localhost:8080
