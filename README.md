@@ -21,7 +21,7 @@ Afin d'optimiser la gestion des ressources et de mettre à disposition une solut
 1. Utilisation d'une image légère : nginx:alpine (7 mo)
 2. Utilisation d'une image officielle nginx
 
-# Marche à suivre sans cloner le repository Git
+## Marche à suivre sans cloner le repository Git
 1. Téléchager JetBrains WebStorm latest (version utilisée 2025.2.3)
 2. Créer un projet
 3. Créer un dossier "site"
